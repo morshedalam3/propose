@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="propose.css">
+
+</head>
+<body>
+    <div id="main-part" style="font-size: 4em;">
+        <h1 id="propose-line">Will you be my life partner??</h1>
+        <div class="div">
+            <button id="nobtn">Yes</button>
+        <button id="yesbtn">Of course</button>
+        </div>
+    </div>
+    <div id="no-area">
+        <h1 id="nolove">😊Ok, I Got It!!😊</h1>
+
+    </div>
+    <div id="transaction-area">
+        <div id="love">
+            <h1>❤️I must love you!❤️</h1>
+
+        </div>
+    </div>
+<script>
+    const noBtn = document.getElementById('nobtn');
+    noBtn.addEventListener("click", function(){
+        const mainPart = document.getElementById('main-part');
+        mainPart.style.display = "none";
+        const noBtnArea = document.getElementById('no-area');
+        noBtnArea.style.display = "block"
+    })
+
+
+    const loginBtn = document.getElementById('yesbtn');
+    loginBtn.addEventListener("click", function(){
+        const mainPart = document.getElementById('main-part');
+        mainPart.style.display = "none";
+        const transactionArea = document.getElementById('transaction-area');
+        transactionArea.style.display = "block";
+
+    })
+
+</script>
+
+</body>
+</html>

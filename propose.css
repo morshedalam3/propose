@@ -1,0 +1,46 @@
+body{
+    background-color: turquoise;
+    font: 1em sans-serif;
+}
+#transaction-area{
+    display: none;
+}
+#love{
+    color: red;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 300px;
+}
+#no-area{
+    display: none;
+}
+#nolove{
+    color: rgb(37, 25, 20);
+    font-size: 7em;
+    text-align: center;
+    margin-top: 300px;
+}
+#propose-line{
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+
+}
+.div{
+    text-align: center;
+    grid-gap: 20px;
+}
+#nobtn{
+    border: turquoise;
+    font-size: 40px;
+     padding: 10px;
+     background-color: brown;
+     color: blue;
+}
+#yesbtn{
+    border: turquoise;
+    font-size: 40px;
+     padding: 10px;
+     background-color: brown;
+     color: blue;
+}
